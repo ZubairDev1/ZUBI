@@ -1,13 +1,21 @@
 import { FaReact, FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { SiTailwindcss, SiJavascript } from 'react-icons/si';
 
+// Import all images
+import BudgetImg from '../assets/Budget.png';
+import EnrollImg from '../assets/Enroll.png';
+import WeatherImg from '../assets/Weather.png';
+import BMIImg from '../assets/BMI.png';
+import TodoImg from '../assets/Todo.png';
+import BlogImg from '../assets/blog.png';
+
 function Projects() {
   const projects = [
      { 
       id: 1, 
       title: 'Budget Tracker', 
       description: 'A budget tracking app.', 
-      image: './src/assets/Budget.png',
+      image: BudgetImg,
       link: 'https://zubairdev1.github.io/-Budget-tracker-4.0/',
       technologies: [
         {name: 'React', icon: <FaReact className="text-[#61DAFB]" /> },
@@ -18,7 +26,7 @@ function Projects() {
       id: 2, 
       title: 'Enrollment Page', 
       description: 'A simple enrollment page with a modern design.', 
-      image: './src/assets/Enroll.png',
+      image: EnrollImg,
       link: 'https://zubairdev1.github.io/Enrollment-page/',
       technologies: [
         {name: 'React', icon: <FaReact className="text-[#61DAFB]" /> },
@@ -29,7 +37,7 @@ function Projects() {
       id: 3, 
       title: 'Weather App', 
       description: 'A simple Weather App with an integrated API.', 
-      image: './src/assets/Weather.png',
+      image: WeatherImg,
       link: 'https://zubairdev1.github.io/Weather-App/',
       technologies: [
         { name: 'HTML', icon: <FaHtml5 className="text-[#E34F26]" /> },
@@ -41,7 +49,7 @@ function Projects() {
         id: 4, 
         title: 'BMI Calculator', 
         description: 'A simple BMI calculator built with HTML, CSS and Javascript.', 
-        image: './src/assets/BMI.png',
+        image: BMIImg,
         link: 'https://zubairdev1.github.io/BMI-calculator-/',
         technologies: [
         { name: 'HTML', icon: <FaHtml5 className="text-[#E34F26]" /> },
@@ -53,7 +61,7 @@ function Projects() {
       id: 5, 
       title: 'Todo List App', 
       description: 'A simple todo list app.', 
-      image: './src/assets/Todo.png',
+      image: TodoImg,
       link: 'https://zubairdev1.github.io/Todo-List-App/',
       technologies: [
         { name: 'HTML', icon: <FaHtml5 className="text-[#E34F26]" /> },
@@ -65,7 +73,7 @@ function Projects() {
       id: 6, 
       title: 'Responsive Blog', 
       description: 'A Responsive web app.', 
-      image: './src/assets/blog.png',
+      image: BlogImg,
       link: 'https://zubairdev1.github.io/Responsive-Blog./',
       technologies: [
         { name: 'HTML', icon: <FaHtml5 className="text-[#E34F26]" /> },
