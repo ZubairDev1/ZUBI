@@ -6,10 +6,10 @@ function Hero() {
     <section className="bg-gray-800 text-white min-h-screen flex flex-col justify-center items-center text-center p-4 gap-6">
       <div className="relative group">
         <div className="w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-white overflow-hidden transition-all duration-300 group-hover:border-blue-500">
-          <img
-            src="/src/assets/pro pic.jpg"
-            alt="Profile Picture"
-            className="w-full h-full object-cover"
+         <img
+              src={profilePic}
+              alt="Profile Picture"
+              className="w-full h-full object-cover"
           />
         </div>
         <div className="absolute left-full ml-4 top-1/2 -translate-y-1/2 bg-blue-500 text-white px-3 py-2 rounded-lg 
