@@ -7,7 +7,7 @@ function Hero() {
       <div className="relative group">
         <div className="w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-white overflow-hidden transition-all duration-300 group-hover:border-blue-500">
           <img
-            src="./src/assets/pro pic.jpg"
+            src="/src/assets/pro pic.jpg"
             alt="Profile Picture"
             className="w-full h-full object-cover"
           />
